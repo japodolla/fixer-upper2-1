@@ -1,11 +1,27 @@
 body {
     background: grey;
     color: white;
+        line-height: 1.45;
+    font-size: 16px;
+
 }
 
+h1{
+ padding: 15px;
+}
+
+div {
+    padding-left: 15px;
+        padding-right: 15px;
+
+}
 .main-content {
-    width: 1000px;
+    width: 55%;
     margin: 0 auto;
+        border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
 }
 
 .u {
@@ -13,25 +29,59 @@ body {
 }
 
 .mets {
-    background: orange;
+    background: #ffa500;
+        color: #191919;
+    padding:15px 20px;
+
+
+
 }
 
 .dodgers {
     background: blue;
+    padding:15px 20px;
+
+
 }
 
 .cubs {
+    background: white;
+        color:#000000;
+    padding:15px 20px;
+
+
+
     
 }
 
 .pittsburgh {
+    color:#000000;
     background: yellow;
+       padding:15px 20px;
+
+
 }
 
 .cardinals {
     background: red;
+        padding:15px 20px;
+
+
+
 }
 
 .table-container {
     background: black;
+        padding:15px 20px;
+    
+}
+
+
+table, tr, th, td {
+ border: 1px solid white;
+    padding: 10px;
+    border-collapse: collapse;
+    
+    
+    
 }
